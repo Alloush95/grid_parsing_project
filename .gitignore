@@ -1,0 +1,60 @@
+# =========================
+# 1. Ignore Everything by Default
+# =========================
+*
+
+# =========================
+# 2. Allow Essential Project Files
+# =========================
+!.gitignore
+!README.md
+!requirements.txt
+!main.py
+!config.py
+!step1_data_collection.py
+!step2_grid_parsing.py
+!step3_computer_vision.py
+!step4_metrics_evaluation.py
+!step5_prototype.py
+!step6_ai_integration.py
+!step7_generalization.py
+!step8_final_analysis.py
+
+# =========================
+# 3. Allow utils folder and its contents
+# =========================
+!utils/
+!utils/**
+
+# =========================
+# 4. Allow specific data folders and limit content
+# =========================
+
+# ui_data: allow folder and only CSV files
+!ui_data/
+# ui_data/*
+# !ui_data/*.csv
+
+# plots: allow all
+# !plots/
+# !plots/**
+
+# =========================
+# 5. Ignore Specific Output Folders
+# =========================
+processed_screenshots/
+screenshots/
+screenshots_with_grid/
+screenshots_with_interaction/
+yolo_annotations/
+
+# =========================
+# 6. Ignore Build and Environment Files
+# =========================
+__pycache__/
+venv/
+
+# =========================
+# 7. Ignore Loose Data Artifacts
+# =========================
+*.json

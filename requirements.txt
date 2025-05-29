@@ -1,0 +1,11 @@
+selenium
+undetected-chromedriver
+webdriver-manager
+pandas
+numpy
+opencv-python
+pytesseract
+ultralytics
+seaborn
+scikit-learn
+matplotlib
